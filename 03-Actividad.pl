@@ -70,5 +70,4 @@ costo_ruta_recursiva(CiudadA, CiudadB, CostoTotal) :-
     costo_ruta_recursiva(vancouver, winnipeg, Costo).
     Costo = 48.  % Vancouver -> Calgary -> Saskatoon -> Winnipeg
 
-
-
+% ------------------------------------------------------------- %
