@@ -1,3 +1,5 @@
+% -------------------------- Ejercicio Ciudades (03) -------------------------- %
+
 % Representación de conexiones y costos
 conectado(vancouver, edmonton, 16).
 conectado(vancouver, calgary, 13).
@@ -63,10 +65,10 @@ costo_ruta_recursiva(CiudadA, CiudadB, CostoTotal) :-
     Costo = 13.
 
     costo_un_intermedio(vancouver, saskatoon, Costo).
-    Costo = 25.  % Vancouver -> Calgary -> Saskatoon
+    Costo = 28.  % Vancouver -> Calgary -> Saskatoon
 
     costo_ruta_recursiva(vancouver, winnipeg, Costo).
-    Costo = 42.  % Vancouver -> Calgary -> Saskatoon -> Winnipeg
+    Costo = 48.  % Vancouver -> Calgary -> Saskatoon -> Winnipeg
 
 
 
